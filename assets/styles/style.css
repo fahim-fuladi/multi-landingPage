@@ -80,3 +80,58 @@
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
 }
+
+.service-card {
+    transition: all 0.3s ease;
+    background: #fff;
+    border-radius: 0 !important;
+}
+
+.service-card:hover {
+    background-color: #e74c3c;
+}
+
+.service-card:hover h4,
+.service-card:hover p {
+    color: white !important;
+}
+
+.icon-box {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #e74c3c;
+    transition: all 0.3s ease;
+}
+
+.icon-box i {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-box {
+    background-color: white;
+}
+
+.service-card:hover .icon-box i {
+    color: #e74c3c !important;
+}
+
+.icon-box {
+    width: 64px;
+    height: 64px;
+    background-color: #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-box {
+    background-color: white;
+}
