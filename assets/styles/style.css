@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #002b5b;
+}
+
+.nav-link.active {
+    color: #e74c3c !important;
+}
+
+.btn-get-started {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.btn-get-started:hover {
+    background-color: #c0392b;
+    color: white;
+}
